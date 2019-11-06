@@ -1,4 +1,4 @@
-# auto_magic_download
+# aautomatic magic downloader
 ## Dependências 
 * Python 3x
 * RepeatMasker
