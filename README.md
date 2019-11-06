@@ -1,4 +1,4 @@
-# baixar_genoma
+# auto_magic_download
 ## Dependências 
 * Python 3x
 * RepeatMasker
@@ -7,5 +7,5 @@
  * modulos.py
  # Sintaxe de Uso 
 ``` python3 main.py ```
-### en seguida informe o ID do genoma para baixar
+'em seguida informe o ID do genoma para baixar'
 
