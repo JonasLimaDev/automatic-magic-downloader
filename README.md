@@ -1,7 +1,7 @@
 # automatic magic downloader
 ## Dependências 
 * Python 3x
-* RepeatMasker
+* BS4 
 ## Arquivos
  * main.py
  * modulos.py
