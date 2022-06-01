@@ -1,4 +1,11 @@
-from modulos import buscar_link, baixar
+from modulos import buscar_link, baixar, verificar_entrada
 
-url=buscar_link(input("Digite o código do genoma: "))
-baixar(url)
+if __name__ == "__main__":
+    id_downloads = verificar_entrada(input("Digite o código do genoma: "))
+    lista_downloads = []
+    for id in id_downloads:
+        info=buscar_link(id)
+        if info != None:
+            lista_downloads.append(info)
+    for dados in lista_downloads:
+        baixar(dados)
