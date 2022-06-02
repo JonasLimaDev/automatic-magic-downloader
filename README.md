@@ -3,7 +3,7 @@
 
 ## Dependências 
 
-*<a href="http://example.com/](https://www.python.org/" target="_blank">Python 3x</a> 
+* <a href="https://www.python.org/" target="_blank">Python 3x</a> 
 * [BS4](https://pypi.org/project/bs4/)
 * [wget](https://pypi.org/project/wget/)
 ## Arquivos
