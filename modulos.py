@@ -49,6 +49,14 @@ def baixar(dados):
 		print(f"\nFinalizado o download do Genoma: {dados['nome']}")
 	else:
 		pass
+	
+	
+def get_link_dados(dados):
+	if dados != None:
+		print(dados['link'].replace(dados['link'].split("/")[-1],""))
+	else:
+		pass
+
 
 if __name__ == "__main__":
 	pass
